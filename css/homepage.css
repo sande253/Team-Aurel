@@ -1,0 +1,116 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Times New Roman', sans-serif;
+    color: #fff;
+    background-color: #000;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  main {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .option {
+    width: 300px;
+    text-align: center;
+  }
+  
+  .option img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .option p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /* Container for the buttons */
+.options {
+    display: flex;
+    justify-content: center; /* Center align the buttons */
+    gap: 40px; /* Space between the buttons */
+    margin-top: 20px; /* Reduce vertical spacing */
+  }
+  
+  .option {
+    width: 350px; /* Increase the width of each button */
+    text-align: center;
+  }
+  
+  /* Button styling */
+  button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  button img {
+    width: 100%; /* Ensure images fill the button's width */
+    height: 450px; /* Increase image height for better proportions */
+    display: block;
+    border-radius: 10px;
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  button:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0px 8px 20px rgba(255, 255, 255, 0.2); /* Add glow */
+  }
+  
+  button:active {
+    transform: scale(0.98); /* Shrink slightly on click */
+    box-shadow: 0px 4px 10px rgba(242, 234, 9, 0.997);
+  }
+  
+  /* Adjust heading spacing */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px; /* Reduce spacing below the heading */
+    color: #fff;
+  }
+  
